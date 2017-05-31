@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <title>
+            Example 2
+        </title>
+    </head>
+    <body>
+        <h1>Using Filters</h1>
+        <div class="container" ng-init="names=['Dave', 'John', 'Alice', 'Susan', 'Tom']">
+            <h3>Search:</h3>
+            <input type="text" ng-model="searchText"/>
+            <h3>Rssults:</h3>
+            <ul>
+                <li ng-repeat="personName in names | filter:searchText | orderBy:'toString()'"> {{ personName }}</li>
+            </ul>
+        </div>
+        <script src="..\src\angular.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Directive (ng-app): initialize the AngularJS app -->
+<!-- We still don't have any particular module associated' -->
+<!-- But still we can do stuff by adding ng-app -->
+<html ng-app>
+    <head>
+        <title>
+            Example 1
+        </title>
+    </head>
+    <body>
+        <h1>Directives and Data Binding</h1>
+        <div class="container">
+            Name:
+            <br />
+            <!-- Directive (ng-model): Behind the scene adding a property --> 
+            <!-- called 'name' up in the memory. In other word adding --> 
+            <!-- an empty model then fill in a 'name'' property -->
+            <input type="text" ng-model="name" /> {{name}}
+            <!-- Data Binding ({{name}}): As we type in the textbox, we can --> 
+            <!-- bind the value-->
+        </div>
+        <script src="..\src\angular.min.js"></script>
+    </body>
+</html>

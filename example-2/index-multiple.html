@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <title>
+            Example 2
+        </title>
+    </head>
+    <body>
+        <h1>Iterating with the ng-repeat Directive</h1>
+        <div class="container" ng-init="fnames=['Dave', 'John', 'Alice']; lnames=['Fitcher', 'Cool', 'McFly']">
+            
+            <h3>Looping with the ng-repeat Directive</h3>
+            <ul>
+                <li ng-repeat="firstName in fnames"> {{ firstName }} {{lnames[$index]}}</li>
+            </ul>
+        </div>
+        <script src="..\src\angular.min.js"></script>
+    </body>
+</html>
