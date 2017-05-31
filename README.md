@@ -1,6 +1,6 @@
 # AngularJS - Examples
-## Disclaimer: This examples are based on Dan Wahlin website where you can reach via https://weblogs.asp.net/dwahlin/video-tutorial-angularjs-fundamentals-in-60-ish-minutes
-## ©2017 Can Peskersoy
+_Disclaimer: This examples are based on Dan Wahlin website where you can reach via https://weblogs.asp.net/dwahlin/video-tutorial-angularjs-fundamentals-in-60-ish-minutes_
+
 
 **Agenda**
 - Getting Started
@@ -25,3 +25,5 @@ We could say that AngularJS is a full-featured SPA framework.
 
 Directives:
 - They teach HTML new tricks!!
+
+© 2017 Can Peskersoy
