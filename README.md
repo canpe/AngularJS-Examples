@@ -1,5 +1,5 @@
 # AngularJS - Examples
-_Disclaimer: This examples are based on Dan Wahlin website where you can reach via https://weblogs.asp.net/dwahlin/video-tutorial-angularjs-fundamentals-in-60-ish-minutes_
+_Disclaimer: This examples are based on Dan Wahlin website where can be reachable via https://weblogs.asp.net/dwahlin/video-tutorial-angularjs-fundamentals-in-60-ish-minutes_
 
 
 **Agenda**
