@@ -5,7 +5,7 @@ Agenda
 - Views, Controllers, Scope
 - Modules, Routers and Factories
 
-* Getting Started *
+* Getting Started
 SPA: Load multiple views(mini web page) into shell page.
 
 The Challenge with SPA: 
