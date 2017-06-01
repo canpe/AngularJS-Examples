@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <title>
+            Example 4
+        </title>
+    </head>
+    <body>
+        <h1>Using Scope</h1>
+        <!-- Scope will apply only inside this DOM element -->
+        <div class="container" ng-controller="SimpleController">
+            <h3>Search:</h3>
+            <input type="text" ng-model="searchText"/>
+            <h3>Results:</h3>
+            <ul>
+                <li ng-repeat="cust in customers | filter:searchText | orderBy:'name'"> {{ cust.name }} - {{ cust.city }}</li>
+            </ul>
+        </div>
+        <script src="..\src\angular.min.js"></script>
+        <script>
+            angular.module('myApp', [])
+            .controller('SimpleController', function ($scope){
+                $scope.customers = [
+                    { name: "John Smith", city: "New York" },
+                    { name: "John Doe", city: "Las Vegas" },
+                    { name: "Jane Doe", city: "Los Angeles" }
+                ];
+            });
+        </script>
+    </body>
+</html>

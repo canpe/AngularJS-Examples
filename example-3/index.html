@@ -2,17 +2,19 @@
 <html ng-app>
     <head>
         <title>
-            Example 2
+            Example 3
         </title>
     </head>
     <body>
         <h1>Using Filters</h1>
         <div class="container" ng-init="names=['Dave', 'John', 'Alice', 'Susan', 'Tom']">
+            <h3>Array:</h3>
+            <span ng-repeat="name in names" ng-bind="name + ' '"></span>
             <h3>Search:</h3>
             <input type="text" ng-model="searchText"/>
-            <h3>Rssults:</h3>
+            <h3>Results:</h3>
             <ul>
-                <li ng-repeat="personName in names | filter:searchText | orderBy:'toString()'"> {{ personName }}</li>
+                <li ng-repeat="personName in names | filter:searchText | orderBy:'toString()'"> {{ personName | uppercase }}</li>
             </ul>
         </div>
         <script src="..\src\angular.min.js"></script>

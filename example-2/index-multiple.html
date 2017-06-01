@@ -11,7 +11,7 @@
             
             <h3>Looping with the ng-repeat Directive</h3>
             <ul>
-                <li ng-repeat="firstName in fnames"> {{ firstName }} {{lnames[$index]}}</li>
+                <li ng-repeat="firstName in fnames"> {{ firstName }} {{lnames[$index] | uppercase}}</li>
             </ul>
         </div>
         <script src="..\src\angular.min.js"></script>

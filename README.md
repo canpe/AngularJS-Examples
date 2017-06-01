@@ -23,7 +23,13 @@ The Challenge with SPA
 **AngularJS Features**
 We could say that AngularJS is a full-featured SPA framework.
 
-Directives:
-- They teach HTML new tricks!!
+**Directives, Filter, Data Binding:**
+They teach HTML new tricks!!
+
+**View, Controllers, Scope**
+Scope: The scope is the binding part between the HTML (View) and the JavaScript (Controller).
+
+- The scope is an object with the available properties and methods.
+- The scope is available for both the View and Controller.
 
 © 2017 Can Peskersoy
